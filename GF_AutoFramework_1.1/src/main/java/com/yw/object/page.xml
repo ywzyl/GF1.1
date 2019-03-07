@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map>
+	<!-- 登录页面 -->
+	<page pageName="loginPage">
+		<!--Locator lists -->
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;login&quot;]/div/label[1]/input">登录输入账号框</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;login&quot;]/div/label[2]/input">登录输入密码框</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;login&quot;]/div/div[3]/a">登录</locator>
+		<locator type="xpath" timeOut="3" value="/html/body/div[2]/div/div[2]">错误提示</locator>
+	</page>
+	<!-- 导航页 -->
+	<page pageName="mainPage">
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;app&quot;]/div[1]/div[2]/div/div[2]/div/ul/li">退出登录</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;app&quot;]/div[1]/ul/li[1]/a">检测管理</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;app&quot;]/div[1]/ul/li[1]/ul/li[1]/a">检测档案管理</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;app&quot;]/div[1]/ul/li[1]/ul/li[2]/a">检测基础数据设置</locator>
+		
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;app&quot;]/div[1]/ul/li[2]/a">仓库管理</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;app&quot;]/div[1]/ul/li[2]/ul/li[1]/a">物料基础数据维护</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;app&quot;]/div[1]/ul/li[2]/ul/li[2]/a">物料申请管理</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;app&quot;]/div[1]/ul/li[2]/ul/li[3]/a">入库管理</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;app&quot;]/div[1]/ul/li[2]/ul/li[4]/a">出库管理</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;app&quot;]/div[1]/ul/li[2]/ul/li[5]/a">仓库看板</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;app&quot;]/div[1]/ul/li[2]/ul/li[6]/a">仓库设置</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;app&quot;]/div[1]/ul/li[3]/a">生产管理</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;app&quot;]/div[1]/ul/li[3]/ul/li">处理量管理</locator>
+	</page>
+	<!-- 检测基础数据设置 -->
+	<page pageName="detectBasicDataSetPage">
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;detection-basic-data&quot;]/div/div[2]/div[1]/button[1]">检测项目</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;detection-basic-data&quot;]/div/div[2]/div[1]/button[2]">检测类别</locator>
+		
+	</page>
+	<page pageName="detectItemPage">
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;test-item&quot;]/div[2]/div[1]/a">新建</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;test-item&quot;]/div[2]/div[2]/div[2]/ul[1]/li[6]/a[1]">禁用</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;test-item&quot;]/div[2]/div[2]/div[2]/ul[1]/li[6]/a[2]">修改</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;test-item&quot;]/div[2]/div[2]/div[2]/ul[1]/li[6]/a[3]">查看</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;test-item&quot;]/div[2]/div[2]/div[2]/ul[1]/li[6]/a[4]">删除</locator>
+	</page>
+	<page pageName="detectItemCreAndModPage">
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;table-body&quot;]/ul/li[2]/input">检测指标名称1</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;table-body&quot;]/ul/li[3]/input">检测指标单位1</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;table-body&quot;]/ul/li[4]/input[1]">预警区间下限1</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;table-body&quot;]/ul/li[4]/input[2]">预警区间上限1</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;table-body&quot;]/ul/li[5]/input[1]">报警区间下限1</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;table-body&quot;]/ul/li[5]/input[2]">报警区间上限1</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;creat-test&quot;]/div/div[2]/div[3]/a[2]">保存</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;creat-test&quot;]/div/div[2]/div[2]/div[1]/a">新增一行</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;table-body&quot;]/ul/li[6]/a">删除</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;table-body&quot;]/ul/li[2]/input">修改检测指标名称1</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;table-body&quot;]/ul/li[3]/input">修改检测指标单位1</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;table-body&quot;]/ul/li[4]/input[1]">修改预警区间下限1</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;table-body&quot;]/ul/li[4]/input[2]">修改预警区间上限1</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;table-body&quot;]/ul/li[5]/input[1]">修改报警区间下限1</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;table-body&quot;]/ul/li[5]/input[2]">修改报警区间上限1</locator>
+	</page>
+	<page pageName="detectCatagoryPage">
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;catalog&quot;]/div[2]/div[1]/a">新建</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;catalog&quot;]/div[2]/div[2]/div[2]/ul[1]/li[6]/a[1]">禁用</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;catalog&quot;]/div[2]/div[2]/div[2]/ul[1]/li[6]/a[2]">修改</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;catalog&quot;]/div[2]/div[2]/div[2]/ul[1]/li[6]/a[3]">查看</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;catalog&quot;]/div[2]/div[2]/div[2]/ul[1]/li[6]/a[4]">删除</locator>
+	</page>
+	<page pageName="detectCatagoryCreAndModPage">
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;table-body&quot;]/ul/li[2]/input">检测项分类名1</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;table-body&quot;]/ul/li[4]/input">下限1</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;table-body&quot;]/ul/li[5]/input">上限1</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;creat-catelog&quot;]/div/div[2]/div[2]/div[1]/a">新增一行</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;table-body&quot;]/ul[2]/li[2]/input">检测项分类名2</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;table-body&quot;]/ul[2]/li[4]/input">下限2</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;table-body&quot;]/ul[2]/li[5]/input">上限2</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;table-body&quot;]/ul[3]/li[2]/input">检测项分类名3</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;table-body&quot;]/ul[3]/li[4]/input">下限3</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;table-body&quot;]/ul[3]/li[5]/input">上限3</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;table-body&quot;]/ul[4]/li[2]/input">检测项分类名4</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;table-body&quot;]/ul[4]/li[4]/input">下限4</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;table-body&quot;]/ul[4]/li[5]/input">上限4</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;table-body&quot;]/ul[5]/li[2]/input">检测项分类名5</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;table-body&quot;]/ul[5]/li[4]/input">下限5</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;table-body&quot;]/ul[5]/li[5]/input">上限5</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;table-body&quot;]/ul[6]/li[2]/input">检测项分类名6</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;table-body&quot;]/ul[6]/li[4]/input">下限6</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;table-body&quot;]/ul[6]/li[5]/input">上限6</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;table-body&quot;]/ul[7]/li[2]/input">检测项分类名7</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;table-body&quot;]/ul[7]/li[4]/input">下限7</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;table-body&quot;]/ul[7]/li[5]/input">上限7</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;table-body&quot;]/ul[8]/li[2]/input">检测项分类名8</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;table-body&quot;]/ul[8]/li[4]/input">下限8</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;table-body&quot;]/ul[8]/li[5]/input">上限8</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;table-body&quot;]/ul[9]/li[2]/input">检测项分类名9</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;table-body&quot;]/ul[9]/li[4]/input">下限9</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;table-body&quot;]/ul[9]/li[5]/input">上限9</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;table-body&quot;]/ul[10]/li[2]/input">检测项分类名10</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;table-body&quot;]/ul[10]/li[4]/input">下限10</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;table-body&quot;]/ul[10]/li[5]/input">上限10</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;table-body&quot;]/ul[11]/li[2]/input">检测项分类名11</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;table-body&quot;]/ul[11]/li[4]/input">下限11</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;table-body&quot;]/ul[11]/li[5]/input">上限11</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;table-body&quot;]/ul[12]/li[2]/input">检测项分类名12</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;table-body&quot;]/ul[12]/li[4]/input">下限12</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;table-body&quot;]/ul[12]/li[5]/input">上限12</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;creat-catelog&quot;]/div/div[2]/div[3]/a[2]">保存</locator>
+	</page>
+	<!-- 物料基础数据维护 -->
+	<page pageName="materialBasicPage">		
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;material-maintance&quot;]/div/div[2]/div[3]/div[1]/a">新建</locator>
+		<locator type="xpath" timeOut="3" value="/html/body/div[2]/div/div[2]">保存成功</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;material-maintance&quot;]/div/div[2]/div[3]/div[2]/div[2]/ul[1]/li[10]/a[2]">修改</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;material-maintance&quot;]/div/div[2]/div[3]/div[2]/div[2]/ul[1]/li[10]/a[1]">查看</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;material-maintance&quot;]/div/div[2]/div[3]/div[2]/div[2]/ul[1]/li[10]/a[3]">删除</locator>
+	</page>   
+	<page pageName="materialBasicCreatePage">
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;form&quot;]/div[1]/div/input">物料名称</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;form&quot;]/div[2]/div/div/div[1]/label/input">物料类型</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;form&quot;]/div[2]/div/div/div[2]/div/li[1]">选择物料类型</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;form&quot;]/div[3]/div/input">规格型号</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;form&quot;]/div[4]/div/input">品牌</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;form&quot;]/div[5]/div/input">编码</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;form&quot;]/div[6]/div/input">单位</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;form&quot;]/div[11]/div/label/input">入库数量限制</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;material-maintance&quot;]/div[2]/div/div[3]/div/div/a[2]">确认</locator>
+	</page>
+	<page pageName="materialBasicModifyPage">
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;form&quot;]/div[1]/div/input">物料名称</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;form&quot;]/div[3]/div/input">物料类型</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;form&quot;]/div[4]/div/input">规格型号</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;form&quot;]/div[5]/div/input">品牌</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;form&quot;]/div[6]/div/input">编码</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;form&quot;]/div[7]/div/input">单位</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;form&quot;]/div[8]/div/input">价格</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;form&quot;]/div[9]/div/input">单耗标准</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;form&quot;]/div[10]/div/input">库存下限</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;form&quot;]/div[11]/div/input">库存上限</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;form&quot;]/div[12]/div/label/input">入库数量限制</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;form&quot;]/div[12]/div/select">选择入库限制方式</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;form&quot;]/div[12]/div/select/option[2]">百分比</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;material-maintance&quot;]/div[2]/div/div[3]/div/div/a[2]">确认</locator>
+	</page>
+	<page pageName="materialBasicCheckPage">
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;material-maintance&quot;]/div[2]/div/div[1]/div/span">X</locator>
+	</page>
+	<page pageName="materialBasicDelPage">
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;material-maintance&quot;]/div[2]/div/div[3]/div/a[2]">确定</locator>
+	</page>
+	<!-- 物料申请管理 -->
+	<page pageName="materialsApplicationPage">
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;material-application&quot;]/div/div[2]/div[2]/div[1]/a">新建</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;material-application&quot;]/div/div[2]/div[2]/div[2]/div[2]/ul[1]/li[9]/a[2]">修改</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;material-application&quot;]/div/div[2]/div[2]/div[2]/div[2]/ul[1]/li[9]/a[3]">删除</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;material-application&quot;]/div/div[2]/div[2]/div[2]/div[2]/ul[1]/li[9]/a[1]">提交</locator>
+		<locator type="xpath" timeOut="3" value="/html/body/div[2]/div/div[2]">提交成功</locator>
+		<locator type="xpath" timeOut="3" value="/html/body/div[2]/div/div[2]">删除成功</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;material-application&quot;]/div/div[2]/div[2]/div[2]/div[2]/ul[1]/li[9]/a[1]">审批</locator>
+	</page>
+	<page pageName="materialsApplicationCreAndModPage">
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;creat-application-form&quot;]/div/div[2]/div[2]/div[1]/a">新增一行</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;table-body&quot;]/ul[1]/li[2]/select">物料名称</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;table-body&quot;]/ul[1]/li[2]/select/option[2]">选择物料名称</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;table-body&quot;]/ul[1]/li[3]/input">品牌</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;table-body&quot;]/ul[1]/li[4]/input">型号规格</locator>		
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;table-body&quot;]/ul[1]/li[5]/input">数量</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;table-body&quot;]/ul[1]/li[6]/input">单位</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;table-body&quot;]/ul[1]/li[7]/div/div[1]/label/input">要求到货日期</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;table-body&quot;]/ul[1]/li[8]/select">申购原因</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;table-body&quot;]/ul[1]/li[8]/select/option[3]">选择备用申购原因</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;table-body&quot;]/ul[1]/li[8]/select/option[2]">选择备用更换原因</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;creat-application-form&quot;]/div/div[2]/div[3]/a[2]">新建提交</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;mofify-application-form&quot;]/div/div[2]/div[3]/a[2]">修改提交</locator>
+	</page>
+	<page pageName="materialsApplicationDelPage">
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;material-application&quot;]/div[2]/div/div[3]/div/a[2]">确定</locator>
+	</page>
+	<page pageName="materialsApplicationAuditPage">
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;material-approval-information&quot;]/div/div[2]/div[2]/section/div[2]/div/textarea">审批意见</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;material-approval-information&quot;]/div/div[2]/div[2]/div[2]/a[2]">提交</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;material-approval-information&quot;]/div/div[2]/div[2]/section/div[1]/div/div/label[1]">通过</locator>
+	</page>
+	<!-- 入库管理 -->
+	<page pageName="stockPendingPage">
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;entry-manage&quot;]/div/div[2]/div[1]/button[1]">待入库</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;waiting-for-storage&quot;]/div[2]/div/div[2]/ul/li[10]/a">入库</locator>		
+	</page>
+	<page pageName="stockInPage">
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;entry-manage&quot;]/div/div[2]/div[1]/button[2]">已入库</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;already-in-storage&quot;]/div[2]/div/div[2]/ul[1]/li[3]">入库编号</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;already-in-storage&quot;]/div[2]/div/div[2]/ul[1]/li[10]/a">查看</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;already-in-storage&quot;]/div[3]/div/div[2]/div[2]/div[1]/div/label/input">入库日期</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;already-in-storage&quot;]/div[3]/div/div[2]/div[2]/div[3]/div/label/input">入库人员</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;already-in-storage&quot;]/div[3]/div/div[2]/div[2]/div[4]/div/label/input">物料名称</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;already-in-storage&quot;]/div[3]/div/div[2]/div[2]/div[5]/div/label/input">型号规格</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;already-in-storage&quot;]/div[3]/div/div[2]/div[2]/div[6]/div/label/input">申请数量</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;already-in-storage&quot;]/div[3]/div/div[2]/div[2]/div[7]/div/label/input">存入仓库</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;already-in-storage&quot;]/div[3]/div/div[2]/div[2]/div[8]/div/label/input">存入数量</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;already-in-storage&quot;]/div[3]/div/div[3]/div/div/a">关闭</locator>
+	</page>
+	<page pageName="stockManagePage">
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;waiting-for-storage&quot;]/div[3]/div/div[2]/div/div[6]/div/label/input">送料单位</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;waiting-for-storage&quot;]/div[3]/div/div[2]/div/div[7]/div/div/div[1]/label/input">存入仓库</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;waiting-for-storage&quot;]/div[3]/div/div[2]/div/div[7]/div/div/div[2]/div/li">选择存入仓库</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;waiting-for-storage&quot;]/div[3]/div/div[2]/div/div[8]/div/label/input">存入数量</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;waiting-for-storage&quot;]/div[3]/div/div[3]/div/div/a[2]">确认</locator>
+	</page>
+	<!-- 出库管理 -->
+	<page pageName="stockOutManagePage">
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;material-application&quot;]/div/div[2]/div[2]/div[1]/a">新建</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;material-application&quot;]/div/div[2]/div[2]/div[2]/div[2]/ul/li[6]/a[1]">提交</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;material-application&quot;]/div/div[2]/div[2]/div[2]/div[2]/ul/li[6]/a[2]">修改</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;material-application&quot;]/div/div[2]/div[2]/div[2]/div[2]/ul/li[6]/a[3]">删除</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;material-application&quot;]/div/div[2]/div[2]/div[2]/div[2]/ul/li[6]/a">审批</locator>
+	</page>
+	<page pageName="stockOutCreAndModPage">
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;creat-application-form&quot;]/div/div[2]/div[1]/div[3]/div[2]/label/input">申请原因</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;creat-application-form&quot;]/div/div[2]/div[2]/div[1]/a">添加化工原料</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;table-body&quot;]/ul[1]/li[6]/input">出库重量</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;creat-application-form&quot;]/div/div[2]/div[3]/a[2]">提交</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;creat-application-form&quot;]/div/div[2]/div[1]/div[4]/div/label/input">修改申请原因</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;table-body&quot;]/ul[1]/li[6]/input">修改出库重量</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;creat-application-form&quot;]/div/div[2]/div[3]/a[2]">修改提交</locator>
+	</page>
+	<page pageName="addMaterialPage">
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;table-body&quot;]/ul[1]/li[1]/input">选择化工原料</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;creat-application-form&quot;]/div[2]/div/div[3]/div/div/a[2]">保存</locator>
+	</page>
+	<page pageName="stockOutDelPage">
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;material-application&quot;]/div[2]/div/div[3]/div/a[2]">确定</locator>
+	</page>
+	<page pageName="stockOutAudPage">
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;material-approval-information&quot;]/div/div[2]/div[2]/section/div[1]/div/div/label[1]">通过</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;material-approval-information&quot;]/div/div[2]/div[2]/section/div[2]/div/textarea">审批意见</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;material-approval-information&quot;]/div/div[2]/div[2]/div[2]/a[2]">提交</locator>
+	</page>
+	
+	<!-- 仓库设置 -->
+	<page pageName="warehousePage">
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;warehouse-setting&quot;]/div/div[2]/div[2]/div[1]/a">新建</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;warehouse-setting&quot;]/div/div[2]/div[2]/div[2]/div[2]/ul/li[9]/a[2]">修改</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;warehouse-setting&quot;]/div/div[2]/div[2]/div[2]/div[2]/ul/li[9]/a[1]">查看</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;warehouse-setting&quot;]/div/div[2]/div[2]/div[2]/div[2]/ul/li[9]/a[3]">删除</locator>	
+	</page>
+	<page pageName="warehouseCreAndModPage">
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;warehouse-setting&quot;]/div[2]/div/div[2]/div/div[1]/div/label/input">仓库名称</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;warehouse-setting&quot;]/div[2]/div/div[2]/div/div[2]/div/div/div[1]/label/input">仓库类型</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;warehouse-setting&quot;]/div[2]/div/div[2]/div/div[2]/div/div/div[2]/div/li[1]">选择化工原料辅料</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;warehouse-setting&quot;]/div[2]/div/div[2]/div/div[3]/div/label/input">容量（吨）</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;warehouse-setting&quot;]/div[2]/div/div[2]/div/div[4]/div/div/div[1]/label/input">仓库负责人</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;warehouse-setting&quot;]/div[2]/div/div[2]/div/div[4]/div/div/div[2]/div/li[5]">选择仓库负责人</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;warehouse-setting&quot;]/div[2]/div/div[2]/div/div[6]/div/div/textarea">备注</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;warehouse-setting&quot;]/div[2]/div/div[2]/div/div[7]/div/div/div/div/input">仓库平面图</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;warehouse-setting&quot;]/div[2]/div/div[3]/div/div/a[2]">确认</locator>	
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;warehouse-setting&quot;]/div[2]/div/div[2]/div/div[1]/div/label/input">修改仓库名称</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;warehouse-setting&quot;]/div[2]/div/div[2]/div/div[4]/div/div/div[1]/label/input">修改仓库负责人</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;warehouse-setting&quot;]/div[2]/div/div[2]/div/div[4]/div/div/div[2]/div/li[3]">选择新仓库负责人</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;warehouse-setting&quot;]/div[2]/div/div[2]/div/div[6]/div/div/textarea">修改备注</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;warehouse-setting&quot;]/div[2]/div/div[2]/div/div[7]/div/div/div/div/input">修改仓库平面图</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;warehouse-setting&quot;]/div[2]/div/div[3]/div/div/a[2]">修改确认</locator>					
+	</page>
+	<page pageName="warehouseDelPage">
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;warehouse-setting&quot;]/div[2]/div/div[3]/div/a[2]">新建</locator>
+	</page>
+	<!--  仓库看板 -->
+	<page pageName="warehouseBoardPage">
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;warehouse-kanban&quot;]/div/div[2]/div/button">新建</locator>
+	</page> 
+	<!-- 处置量管理 -->
+	<page pageName="disposalCapacityPage">
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;disposal-capacity&quot;]/div/div[2]/div[2]/div[1]/a">新建</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;disposal-capacity&quot;]/div/div[2]/div[2]/div[2]/div[2]/ul/li[6]/a[1]">删除</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;disposal-capacity&quot;]/div/div[2]/div[2]/div[2]/div[2]/ul/li[6]/a[2]">修改</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;disposal-capacity&quot;]/div/div[2]/div[2]/div[2]/div[2]/ul/li[6]/a[3]">查看</locator>
+	</page>
+	<page pageName="disposalCapacityCreAndModPage">
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;table-body&quot;]/ul[1]/li[3]/input">废水处置量</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;table-body&quot;]/ul[2]/li[3]/input">污泥处置量</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;table-body&quot;]/ul[3]/li[3]/input">油墨渣处置量</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;creat-online-testing&quot;]/div/div[2]/div[1]/div[2]/div[1]/div/div[1]/label/input">处置日期</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;creat-online-testing&quot;]/div/div[2]/div[3]/a[2]">提交</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;table-body&quot;]/ul[1]/li[3]/input">修改废水处置量</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;table-body&quot;]/ul[2]/li[3]/input">修改污泥处置量</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;table-body&quot;]/ul[3]/li[3]/input">修改油墨渣处置量</locator>
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;creat-online-testing&quot;]/div/div[2]/div[3]/a[2]">修改提交</locator>
+	</page>
+	<page pageName="disposalCapacityDelPage">
+		<locator type="xpath" timeOut="3" value="//*[@id=&quot;disposal-capacity&quot;]/div[2]/div/div[3]/div/a[2]">确定</locator>
+	</page>
+</map>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.yw.utils.RetryListener"/>
+    <listener class-name="com.yw.utils.TestRunnerListener"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="Test(failed)">
+    <classes>
+      <class name="com.yw.testcase.MaterialBasicTest">
+        <methods>
+          <include name="materialBasicDel"/>
+          <include name="afterTest"/>
+          <include name="materialBasicModify"/>
+          <include name="beforeClass"/>
+          <include name="materialBasicIndex"/>
+          <include name="beforeMethod"/>
+          <include name="materialBasicCheck"/>
+        </methods>
+      </class> <!-- com.yw.testcase.MaterialBasicTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
